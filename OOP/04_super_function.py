@@ -11,11 +11,10 @@ class Dog(Animal):
         self.breed = breed
         print(f"{name} Dog of breed {breed} is created")
 
-# Test
 dog = Dog("Buddy", "Golden Retriever")
 
 
-Demonstrates usage WITHOUT super() to call parent class constructor
+# Demonstrates usage WITHOUT super() to call parent class constructor
 
 class Animal:
     def __init__(self, name):
