@@ -30,3 +30,5 @@ for dog in dogs:
 calc = Calculator()
 print(calc.add(5, 10))  # Two arguments
 print(calc.add(5, 10, 15))  # Three arguments
+
+
